@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            /* overflow: hidden; */
+            
+        }
+        
+/*         
+        header{
+            background: url("building_architecture_black_197503_1920x1080.jpg") no-repeat center center fixed;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            height: auto;
+            opacity: .6;
+            z-index: -1; */
+        
+        body{
+            background: black;
+            color:white;
+            border: 100px solid black;
+        }
+        .cont{
+            display: grid;
+            grid-template-columns: repeat(3,.2fr);
+            grid-template-rows:repeat(3,.3fr) ;
+            grid-gap:20px;
+            justify-content: center;
+            align-content: center;
+            text-shadow: 5px 5px 5px blue;
+            /* overflow: hidden; */
+
+        }
+        .cont > div{
+
+            height: 300px;
+            padding: 100px;
+            width: 400px;
+            /* background: url("hostelm.jpg") ; */
+            object-fit: cover;
+            /* background-size: cover;
+            background-attachment: fixed; */
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-items: center; 
+
+
+        }
+        .class1{
+            background: url("hostelB_1.png");
+            background-size: cover;
+        }
+        .class2{
+          background: url("hostelC_3.png");
+          background-size: cover;
+        }   
+        .class3{
+          background: url("hostelH_2.png");
+          background-size: cover;
+        }   
+        .class4{
+          background: url("hostelJ_2.png");
+          background-size: cover;
+        }   
+        .class5{
+          background: url("hostelJ_2.png");
+          background-size: cover;
+        }   
+        .class6{
+          background: url("outer_k\(1\).jpg");
+          background-size: cover;
+        }   
+        .class7{
+          background: url("hostell.jpg");
+          background-size: cover;
+        }   
+        .class8{
+          background: url("hostelm.jpg");
+          background-size: cover;
+        }   
+        .class9{
+          background: url("hostelO_1.png");
+          background-size: cover;
+        }   
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: rgb(105, 180, 223);
+        }
+        </style>
+</head>
+<body>
+    <!-- <header>HOSTELS</header> -->
+    <div class="cont">
+        <div class="class1">
+           <a href="login.html"><h1><span>Hostel-B</span></h1></a>
+        </div>
+        <div class="class2">
+            <a href="login.html"><h1><span>Hostel-C</span></h1></a>
+        </div>
+        <div class="class3">
+            <a href="login.html"><h1><span>Hostel-H</span></h1></a>
+        </div>
+        <div class="class4">
+            <a href="login.html"><h1><span>Hostel-J</span></h1></a>
+        </div>
+        <div class="class5">
+            <a href="login.html"><h1><span>Hostel-K</span></h1></a>
+        </div>
+        <div class="class6">
+            <a href="login.html"><h1><span>Hostel-L</span></h1></a>
+        </div>
+        <div class="class7">
+            <a href="login.html"><h1><span>Hostel-M</span></h1></a>
+        </div>
+        <div class="class8">
+            <a href="login.html"><h1><span>Hostel-O</span></h1></a>
+        </div>
+    </div>
+</body>
+</html>
